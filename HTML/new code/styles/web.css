@@ -1,0 +1,68 @@
+/* SUBSCRIBE button */
+    .SUBSCRIBE {
+      background-color: rgb(224, 7, 7);
+      color: #fff;
+      border: none;
+      height: 37px;
+      width: 100px;
+      font-size: 14px;
+      border-radius: 2px; 
+      cursor: pointer;
+      margin-right: 10px;
+      transition: opacity 0.1s;
+    }
+    .SUBSCRIBE:hover {
+      opacity: 0.7;
+    }
+    .SUBSCRIBE:active {
+      opacity: 0.3;
+      transition: opacity 0.8s;
+    }
+
+    /* Join button */
+    .Join {
+      background-color: #fff;
+      color: rgb(45, 209, 209);
+      border: 1px solid rgb(24, 199, 199);
+      padding: 11px 20px;
+      font-size: 14px;
+      border-radius: 2px; 
+      cursor: pointer;
+      margin-right: 10px;
+      transition: background-color 1s, color 1s;
+    }
+    .Join:hover {
+      background-color: rgb(45, 209, 209);
+      color: #fff;
+    }
+    .Join:active {
+      opacity: 0.7;
+    }
+
+    /* Tweet button */
+    .Tweet {
+      background-color: rgb(0, 90, 226);
+      color: #fff;
+      border: none;
+      height: 37px;
+      width: 70px;
+      font-size: 14px;
+      border-radius: 20px; 
+      cursor: pointer;
+      margin-right: 10px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+      transition: box-shadow 0.2s;
+    }
+    .Tweet:hover {
+      box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.15);
+    }
+    .pic1{
+      width: 300px;
+      height: 400px ;
+      /*is a CSS property that controls how an 
+      image or video should be resized to fit its container.*/
+      object-fit: cover;
+      /*object-position alows us to control witch
+      part of an image we see if the wole image dosent feet in the container*/
+      object-position: left;
+    }
