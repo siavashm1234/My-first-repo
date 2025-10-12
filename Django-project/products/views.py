@@ -1,7 +1,10 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from .models import Product
+
 
 def index(request):
-    return HttpResponse('use new in the url')
+   products = Product.objects.all()
+   return render(request,'index.html',{'products': products})
 def index_new (request):
     return HttpResponse('new shirts')
